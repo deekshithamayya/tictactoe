@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>tic tac toe</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-beta.2/css/bootstrap.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <html>
+  <body><div class="jumbotron">Tic Tac Toe</div>
+    <div id="msg"></div>
+ <button id="x" onclick="choose('x')">X</button>
+      <button id="o" onclick="choose('o')">O</button>
+     <div class="container-fluid"><div class="row">
+       <div class="col-sm-4"><div id="you"></div></div><div class="col-sm-4">
+     <table id="ttt">
+      <tr><td id="p0" onclick="me(0)"></td><td id="p1" onclick="me(1)"></td><td id="p2" onclick="me(2)"></td></tr>
+       <tr><td id="p3" onclick="me(3)"></td><td id="p4" onclick="me(4)"></td><td id="p5" onclick="me(5)"></td></tr>
+       <tr><td id="p6" onclick="me(6)"></td><td id="p7" onclick="me(7)"></td><td id="p8" onclick="me(8)"></td></tr>
+    </table>
+       <button id="reset" onclick="reset()">RESET</button></div><div class="col-sm-4"><div id="pc"></div></div></div></div>
+  </body>
+</html>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
